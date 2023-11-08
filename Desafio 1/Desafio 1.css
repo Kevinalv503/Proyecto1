@@ -1,0 +1,126 @@
+/* Pagina en general */
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 50px;
+    background-image: url('https://media.istockphoto.com/id/1336165752/es/vector/icono-de-flecha-de-porcentaje-hacia-arriba-y-hacia-abajo-de-la-l%C3%ADnea-flecha-de-porcentaje.jpg?s=612x612&w=0&k=20&c=OmDunNRyMKOkzC1N4dFVNCUGhcLAGMfAc4Si9_Z_G1U='); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #656769;
+    color: #fff;
+}
+
+/* Resumen */
+#resumen {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#resumen div {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#resumen h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+#resumen p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #6a6c6d;
+}
+
+#porcentajeGastos {
+    color: #e74c3c;
+}
+
+/* Transacción */
+#transaccion {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#tipoTransaccion,
+#descripcion,
+#monto {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#agregarTransaccion {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #696d6f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Detalles */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button.active {
+    background-color: #5c5f62;
+    color: #fff;
+}
+
+#listaTransacciones {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#listaTransacciones div {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}

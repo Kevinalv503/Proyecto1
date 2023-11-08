@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Pokemon bank - Retiro de Dinero</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Banco XYZ</h1>
+    </header>
+    <main>
+        <section class="withdraw-form">
+            <h2>Retiro de Dinero</h2>
+            <form action="procesar_retiro.php" method="post">
+                <label for="monto">Monto a retirar:</label>
+                <input type="number" name="monto" id="monto" required>
+                <button type="submit">Retirar</button>
+            </form>
+        </section>
+        <section class="transaction-history">
+            <h2>Historial de Transacciones</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Monto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí puedes mostrar las transacciones registradas -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Banco XYZ</p>
+    </footer>
+</body>
+</html>

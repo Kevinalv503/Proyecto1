@@ -1,0 +1,105 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card-panel {
+    background-color: #fff;
+}
+
+#balance {
+    font-size: 24px;
+}
+
+#actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 5px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0074a5;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.withdraw-form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.withdraw-form h2 {
+    color: #0074a5;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #0074a5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.transaction-history {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.transaction-history h2 {
+    color: #0074a5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+footer {
+    background-color: #0074a5;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

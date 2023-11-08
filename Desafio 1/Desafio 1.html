@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Desafio 1.css">
+    <title>Presupuesto Mensual</title>
+</head>
+<body>
+    <h1 id="titulo">Presupuesto de mes</h1>
+
+    <div id="resumen">
+        <div>
+            <h2>Ingresos</h2>
+            <p id="totalIngresos">$0.00</p>
+        </div>
+        <div>
+            <h2>Egresos</h2>
+            <p id="totalEgresos">$0.00</p>
+            <p id="porcentajeGastos">0%</p>
+        </div>
+    </div>
+
+    <div id="transaccion">
+        <select id="tipoTransaccion">
+            <option value="Ingreso">Ingreso</option>
+            <option value="Egreso">Egreso</option>
+        </select>
+        <input type="text" id="descripcion" placeholder="Descripción">
+        <input type="number" id="monto" placeholder="Monto">
+        <button id="agregarTransaccion">Agregar</button>
+    </div>
+
+    <div id="detalles">
+        <div class="tabs">
+            <button id="tabIngresos">Ingresos</button>
+            <button id="tabEgresos">Egresos</button>
+        </div>
+        <div id="listaTransacciones">
+            <!-- Aquí se mostrarán las transacciones -->
+        </div>
+    </div>
+
+    <script src="Desafio 1.js"></script>
+</body>
+</html>
+
+

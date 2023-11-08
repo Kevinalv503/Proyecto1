@@ -1,0 +1,118 @@
+<!--TEXTO DE COLORR-->
+<p style="color: #0000FF"> Esto es un parrafo</p>
+
+<!--Atributo y ejemplos de la  etiqueta font-->
+
+<p>Esto es un parrafo porr ddefecto</p>
+<p>><font face="Arial, Helvetica" color="#FF0000" size ="6">Esto en un parrafo de color rojo, con el tipo de fuente Arial o helvetica y  de tamaño 6</font> </p>
+
+<!--Uso de atributo Type en eqtiqueta <ul> y <ol>-->
+
+    ><ul>
+        <li type="circle"> Elemento 1</li>
+        <li type="disc"> Elemento 2</li>
+        <li type="square"> Elemento 3</li>
+    </ul>
+
+
+<!--Ejemplo de uso de la etiqueta tablee-->
+
+<table   border="=1">
+    <tr>
+        <td>Elemento 1</td>
+        <td>Elemento 2</td>
+    </tr>
+    <tr>
+        <td>Elemento 3</td>
+        <td>Elemento 4</td>
+    </tr>
+    <tr>
+        <td>Elemento 5</td>
+        <td>Elemento 6</td>
+    </tr>
+    <tr>
+        <td>Elemento 7</td>
+        <td>Elemento 4</td>
+    </tr>
+</table>
+
+<!--EJEMPLO DE LA ETIQUETA  <input>-->
+ 
+<form method="post" action="texto.txt">
+    <label for="name">Nombre:</label>
+    <input type="text" name="Nombre"/>
+</form>
+<form method="post" action="texto.txt">
+    <label>Nombre usuario</label> : <input type="text" name="username"/>
+</form>
+
+<!--EJEMPLO DE chaeckcox-->
+
+<div class="form-group">
+    <label form="tengoperro"> ¿tienes perro?</label>
+    <input id= "tengoperro"
+    name="tengoperro"
+    type="checkbox" value="yes"
+    onchange="tengoperroFuncion()"/>
+
+<br/>
+
+<!--EJEMPLO DE radio>-->
+<form>
+    <input type="radio" id="radio1" name="Grupo">Opcion 1
+    <br>
+    <input type="radio" id="radio2" name="Grupo">Opcion 2 
+    <br>
+    <input type="radio" id="radio1" name="Grupo">Opcion 3
+    <br><br>
+    <input type="button" value="Mostrar" onclick="mostrarSeleccionado()"> 
+</form>
+
+
+<!--EJEMPLO DE Submit>-->
+
+<h3>escoger elementos</h3>
+
+<p>El elmento select se utiliza para definir una lsita despleegadable</p>
+
+<form action="texto.txt">
+<label for="editars">Elige un editor de texto</label>
+<select name="editor" id="editor">
+    <option value="vsc"> Visual Studio</option>
+    <option value="atom"> Atom</option>
+    <option value="sublime"> Sublime Texto</option>
+    <option value="vim"> Vim</option>
+</select>
+<br><br>
+<input type="submit" value="Submit"
+</form>
+
+<!--EJEMPLO IMPLEMENTACION DE CSS>-->
+<head>
+    <style type ="text/css">
+        p {
+            color: hwb(80 0% 0%);
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <p>Esto es una parroooo</p>
+</body>
+
+<!--Ejemplo de uso de selectores de etiqueta
+Por ejemplo, en el siguiente código se muestra que todas aquellas
+directivas o etiquetas que sean de tipo párrafo “<p>” se le aplicará las
+correspondientes propiedades (margin-top:5px; textdecoration:undeline;)>-->
+
+
+<head>
+    <style type ="text/css">
+       P {
+    margin-top:5px;
+    text-decoration: underline;
+} 
+    </style>
+</head>
+<body>
+</body>

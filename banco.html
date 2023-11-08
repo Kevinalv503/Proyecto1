@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="banco.css">
+    <title>Bamco PKB</title>
+    
+   <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+   
+</head>
+<body>
+    
+    <header>
+        <h1>Banco Pokemon </h1>
+    </header>
+    
+    <div class="container">
+        <div class="card-panel">
+            <h4>Cajero Automát ico</h4>
+            <p id="balance">Saldo: $1000</p>
+
+            <div id="actions">
+                <a class="waves-effect waves-light btn">Retirar
+                    <i class="material-icons left">logout</i>
+                </a>
+                <a class="waves-effect waves-light btn">Depositar
+                    <i class="material-icons left">logout</i>                   
+                </a>
+                <a class="waves-effect waves-light btn ">Consultar Saldo
+                    <i class="material-icons left">logout</i>
+
+                </a>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="withdraw-form">
+            <h2>Retiro de Dinero</h2>
+            <form action="a" method="post">
+                <label for="monto">Monto a retirar:</label>
+                <input type="number" name="monto" id="monto" required>
+                <button type="submit">Retirar
+                <i class="material-icons left">attach_money</i>
+                </button>
+            </form>
+        </section>
+        <section class="transaction-history">
+            <h2>Historial de Transacciones</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Monto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí puedes mostrar las transacciones registradas -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Banco Pokemon
+    <!-- Incluye jQuery y Materialize JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Tu script personalizado para la funcionalidad del cajero automático podría ir aquí -->
+
+</body>
+</html>
+
